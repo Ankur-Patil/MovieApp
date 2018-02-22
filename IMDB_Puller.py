@@ -90,6 +90,8 @@ class Movie:
                       " category at " + award['eventName'] + ".\n")
 
 
+# Need to move all of this to another file to make it easier to Read
+
 imdb = Imdb()  # Initialize Imdb Object
 movie_name = input("Enter name of movie: ")
 movie = Movie(movie_name)
